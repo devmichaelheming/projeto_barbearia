@@ -1,0 +1,459 @@
+.topo-login {
+    height: 10rem;
+    width: 100%;
+    background: #3b0b66;
+    /* margin-top: 5rem; */
+}
+.login {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-register {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login form {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 1rem;
+}
+.login-register form {
+    width: 45rem;
+    background: white;
+    align-items: flex-start;
+    padding-top: 2rem;
+    justify-content: center;
+    display: flex;
+    margin: -7rem;
+    padding: 2rem 0;
+    height: auto;
+    box-shadow: 0px 1px 10px rgba(150, 150, 150, 0.303);
+    border-radius: 0.3rem;
+}
+.title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "montserrat";
+    font-size: 2rem;
+    padding-top: 2rem;
+    font-weight: 600;
+}
+.header-login {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.header-login a img {
+    height: 4rem;
+}
+.conteudo-login {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0 2rem 0;
+}
+.conteudo-register {
+    width: 90%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0 0rem 0;
+}
+.group-register {
+    align-items: flex-start;
+    flex-direction: column;
+    display: flex;
+    margin: 0.5rem 0;
+    width: 48%;
+}
+.group-register .group {
+    width: 100%;
+}
+.group-endereco {
+    align-items: flex-start;
+    flex-direction: column;
+    display: flex;
+    margin: 0.5rem 0;
+    width: 48%;
+}
+.group-avatar {
+    align-items: flex-start;
+    flex-direction: column;
+    display: flex;
+    margin: 0.5rem 0;
+    width: 40%;
+}
+/* .group-avatar input {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    margin: 0;
+    opacity: 0;
+} */
+/* .group label {
+    margin-bottom: 0;
+    margin-left: 0.3rem;
+    font-family: "montserrat";
+    color: black;
+} */
+.group-register label {
+    margin-bottom: 0;
+    margin-left: 0.3rem;
+    font-family: "montserrat";
+    color: black;
+}
+.group-endereco label {
+    margin-bottom: 0;
+    font-family: "montserrat";
+    color: black;
+}
+.group-avatar label {
+    margin-bottom: 0;
+    margin-left: 0.3rem;
+    font-family: "montserrat";
+    color: black;
+}
+.group input {
+    border: 1px solid #e0e0e0;
+    padding-left: 0.5rem;
+    width: 100%;
+    font-family: "montserrat";
+    transition: all 0.1s linear;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.group-register input {
+    border: 1px solid #9e9e9e;
+    padding: 0.5rem;
+    width: 100%;
+    font-family: "montserrat";
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.group-avatar img {
+    border-radius: 100%;
+    width: 64px;
+    height: 64px;
+}
+.group-endereco .input {
+    border: 1px solid #9e9e9e;
+    border-radius: 0.2rem;
+    padding: 0.3rem 0.5rem;
+    width: 100%;
+    font-family: "montserrat";
+}
+.button button {
+    border-radius: 0.3rem;
+    background: #3b0b66;
+    width: 100%;
+    border: none;
+    color: white;
+    font-family: "montserrat";
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
+    transition: 0.2s linear;
+}
+.button-register button {
+    border-radius: 0.3rem;
+    background: #3b0b66;
+    width: 100%;
+    border: none;
+    color: white;
+    font-family: "montserrat";
+    padding: 0.5rem 0;
+    transition: 0.2s linear;
+}
+.button button:hover {
+    background: #520f8d;
+    transition: 0.2s linear;
+}
+.button-register button:hover {
+    background: #520f8d;
+    transition: 0.2s linear;
+}
+.button {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.button-register {
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.linha-vertical {
+    padding-bottom: 1rem;
+}
+.info-login {
+    padding-top: 1rem;
+    color: #737373;
+    font-family: "montserrat";
+    text-align: center;
+}
+.info-login a {
+    color: #000000;
+}
+.form-group {
+    width: 100%;
+}
+.info-login a:hover {
+    text-decoration: none;
+    color: #3b0b66;
+}
+.info-login .more-login a {
+    border-bottom: none;
+}
+.bloco-more-items a:nth-child(1) {
+    color: #3b5999;
+    margin: 0 0.5rem;
+}
+.bloco-more-items a:nth-child(2) {
+    color: #db4a39;
+    margin: 0 0.5rem;
+}
+.info-login .more-login a i {
+    border-radius: 100%;
+    font-size: 1.5rem;
+    border: 1px solid #ababab;
+    height: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 2.5rem;
+    transition: 0.2s ease-out;
+}
+.title-more {
+    padding: 2rem 0;
+}
+.bloco-more-items {
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+.info-login .more-login a i:hover {
+    transform: translateY(-5px);
+    transition: 0.2s ease-out;
+}
+.bloco1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bloco2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bloco3 {
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.bloco4 {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.group {
+    position: relative;
+    width: 90%;
+    padding: 1rem 0;
+}
+input {
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid #757575;
+}
+input:focus {
+    outline: none;
+}
+.conteudo {
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.template {
+    width: 30rem;
+    padding: 0.5rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 70%;
+}
+.form-floating .form-control {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+}
+.form-floating .form-control:focus {
+    color: #212529;
+    background-color: transparent;
+    border-color: black;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem transparent;
+}
+.form-floating > label {
+    padding: 1rem 0.3rem !important;
+}
+.form-floating > .form-control,
+.form-floating > .form-select {
+    height: calc(3rem + 2px) !important;
+    padding: 1rem 0.5rem 0.5rem 0.5rem !important;
+}
+.form-floating > .form-control:focus ~ label,
+.form-floating > .form-control:not(:placeholder-shown) ~ label,
+.form-floating > .form-select ~ label {
+    transform: scale(0.85) translateY(-1.7rem) translateX(0.15rem) !important;
+}
+.was-validated .form-control:valid:focus,
+.form-control.is-valid:focus {
+    border-color: #198754;
+    box-shadow: 0 0 0 0.25rem transparent !important;
+}
+.was-validated .form-control:invalid:focus,
+.form-control.is-invalid:focus {
+    border-color: #dc3545;
+    box-shadow: 0 0 0 0.25rem transparent !important;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+/* RESOLUÇÕES */
+@media (max-width: 1600px) {
+    .template {
+        width: 30rem;
+        border: 1px solid #e0e0e0;
+        border-radius: 1.5rem;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        height: 80%;
+    }
+    .conteudo-login {
+        padding: 1rem 0 2rem 0;
+    }
+}
+@media (max-width: 800px) {
+    .template {
+        width: 28rem;
+        height: 75%;
+    }
+    .header-login a img {
+        height: 3.5rem;
+    }
+    .title {
+        font-size: 1.5rem;
+        padding-top: 1.5rem;
+    }
+    .conteudo-login {
+        padding: 1rem 0 2rem 0;
+    }
+    .login form {
+        width: 100%;
+    }
+    .login-register form {
+        width: 90%;
+    }
+    .bloco1 {
+        flex-direction: column;
+    }
+    .group-register {
+        width: 100%;
+    }
+    .bloco2 {
+        flex-direction: column;
+    }
+}
+@media (max-width: 600px) {
+    .template {
+        width: 26rem;
+        height: 70%;
+    }
+    .conteudo-login {
+        padding: 0rem 0 2rem 0;
+    }
+}
+@media (max-width: 500px) {
+    .template {
+        width: 80%;
+        height: 70%;
+    }
+    .group label {
+        font-size: 16px;
+        left: 8px;
+        top: 24px;
+    }
+    .group {
+        padding: 0.5rem 0;
+    }
+}
+@media (max-width: 420px) {
+    .template {
+        width: 95%;
+    }
+    .button button {
+        width: 100%;
+    }
+    .group {
+        width: 100%;
+    }
+}
+@media (max-width: 375px) {
+    .header-login a img {
+        height: 3rem;
+    }
+    .title {
+        font-size: 1.2rem;
+    }
+    .template {
+        height: 60%;
+    }
+    .login form {
+        width: 95%;
+    }
+}
+@media (max-width: 350px) {
+    .button button {
+        width: 95%;
+    }
+    .button button {
+        font-size: 1rem;
+    }
+    .template {
+        height: 55%;
+    }
+}

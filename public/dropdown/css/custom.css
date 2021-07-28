@@ -1,0 +1,153 @@
+/* * {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+} */
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btnMenu {
+    display: none;
+    padding: 20px;
+    display: block;
+    background: #1abc9c;
+    color: #fff;
+}
+
+.btnMenu i.fa {
+    float: right;
+}
+
+.accordion-menu {
+    width: 100%;
+    /* min-width: 300px; */
+    /* margin: 50px; */
+    display: flex;
+    /* line-height: 18px; */
+}
+.btn-group ul li:last-child {
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    padding: 0.3rem 0 0.5rem 0;
+    display: flex;
+    flex-direction: column;
+}
+.btn-group ul li:first-child {
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    padding: 0.5rem 0 0.3rem 0;
+    display: flex;
+    flex-direction: column;
+}
+li {
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.btn-group ul li:hover {
+    background: rgb(238, 238, 238);
+}
+.accordion-menu .menu {
+    width: 100%;
+}
+
+.accordion-menu ul {
+    list-style: none;
+}
+.accordion-menu .menu li a {
+    color: #969696;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 0.5rem;
+    background: transparent;
+}
+.accordion-menu .menu li ul li a {
+    color: #1d557d;
+    height: 3rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem;
+    background: transparent;
+}
+
+.accordion-menu .menu li a:hover {
+    background: #f7f7f7;
+    color: #1d557d;
+}
+.li2 a button i {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.li2 a button {
+    background: transparent;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+    border: transparent;
+    padding: 0;
+}
+/* .accordion-menu .menu ul li a:hover{
+	background: #eaf5fd;
+} */
+.accordion-menu .menu li a:hover {
+    text-decoration: none;
+}
+.accordion-menu .menu i.fa {
+    font-size: 12px;
+    line-height: 18px;
+    float: right;
+    margin-left: 10px;
+}
+
+.accordion-menu .menu ul {
+    display: none;
+    width: 100%;
+    padding: 0;
+    transition: 0.1s linear;
+}
+.accordion-menu .menu button li ul .btn2 li a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 2rem;
+    color: #424242;
+    height: 3rem;
+}
+.accordion-menu .menu li.active button > a {
+    background: #3376a7 !important;
+    color: #fff !important;
+    transition: 0.3s ease-out;
+}
+.menu {
+    margin: 0;
+    width: 100%;
+    list-style: none;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    padding: 0;
+}

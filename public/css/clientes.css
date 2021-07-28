@@ -1,0 +1,571 @@
+.dash-clientes {
+    width: 90%;
+    background: white;
+    height: 100vh;
+    margin-top: -6rem;
+    border-radius: 0.2rem;
+    box-shadow: 0px 1px 10px rgba(150, 150, 150, 0.303);
+    padding: 0rem;
+}
+.container-dash {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-responsive {
+    display: none;
+}
+.topo-dash {
+    height: 12rem;
+    width: 100%;
+    background: #3b0b66;
+}
+.lado-direito {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-color: #f0f0f0;
+    top: 0;
+    right: -100%;
+    max-width: 400px;
+    padding: 0;
+    transition: 0.3s linear;
+    z-index: 1000;
+}
+.header-dash {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conteudo-dash {
+    border-radius: 0.3rem;
+    padding-top: 20px;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    padding-left: 320px;
+    padding-right: 20px;
+    height: 100%;
+    background: #f7f7f7;
+}
+.menu-left {
+    border-top-left-radius: 0.3rem;
+    display: flex;
+    left: 0;
+    background: white;
+    height: 100vh;
+    box-shadow: 0px 1px 10px rgba(150, 150, 150, 0.303);
+    width: 300px;
+    z-index: 100;
+    align-items: center;
+    flex-direction: column;
+}
+.body-dash {
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.logo-menu {
+    padding: 1.2rem;
+}
+.menu-left ul {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu-left ul li {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-family: "montserrat";
+    border-top: 1px solid #efefef;
+}
+.menu-left ul li:last-child {
+    border-bottom: 1px solid #ebebeb;
+}
+.menu-left ul a {
+    text-decoration: none;
+}
+.menu-left ul a:hover {
+    text-decoration: none;
+}
+.conteudo-dash .body {
+    border-radius: 0.3rem;
+    width: 100%;
+    background: white;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+}
+.title-body {
+    padding: 2rem 0 0 0;
+    font-size: 2rem;
+    font-family: "montserrat";
+}
+.dados {
+    align-items: flex-end;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+.dados-endereco {
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+.group-inputs {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    font-family: "montserrat";
+    padding: 1rem 2rem;
+}
+.group-inputs-first {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    font-family: "montserrat";
+    padding: 1rem 2rem;
+}
+.group-inputs input {
+    width: 100%;
+    border-radius: 0.2rem;
+    border: 2px dashed rgb(210, 210, 210);
+    padding: 0.5rem;
+    background: transparent;
+}
+.group-inputs-first input {
+    width: 100%;
+    background: transparent;
+    border-radius: 0.2rem;
+    border: 2px dashed rgb(210, 210, 210);
+    padding: 0.5rem;
+}
+.bloco-input {
+    width: 49%;
+}
+.bloco-input-first {
+    width: 40%;
+}
+/* .group-endereco {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 1rem 0;
+    flex-direction: column;
+    font-family: "montserrat";
+}
+.group-endereco input {
+    width: 95%;
+    border-radius: 0.2rem;
+    border: 1px solid rgb(210, 210, 210);
+    padding: 0.5rem;
+}
+.group-endereco label {
+    padding-left: 2rem;
+    width: 100%;
+} */
+.avatar-img {
+    background-position: top center;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-image: url(../img/user.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.avatar {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.avatar-img span i {
+    opacity: 0;
+    background: #000000ad;
+    padding: 1rem;
+    color: white;
+    border-radius: 100%;
+    font-size: 1.5rem;
+}
+.filter2 {
+    opacity: 0.8;
+}
+.avatar-img a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.avatar-img button {
+    background: transparent;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+.avatar-img button:focus {
+    outline: 0;
+}
+.group select {
+    width: 100%;
+    padding: 0.7rem;
+    border: 1px solid #9e9e9e;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    color: #717171;
+}
+.error {
+    margin-top: 3.5rem !important;
+    font-size: 0.8rem !important;
+    color: red !important;
+}
+#estado:focus {
+    outline: 0;
+}
+.input-group input[type="file"] {
+    display: none;
+}
+.input-group label {
+    width: 100%;
+    background-color: transparent;
+    border-radius: 0.2rem;
+    color: #717171;
+    cursor: pointer;
+    border: 1px solid #b3b3b3;
+    padding: 0.5rem;
+    margin: 0;
+}
+.button-cadastrar {
+    background: #3b0b66;
+    padding: 0rem 0.5rem;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    display: flex;
+    height: 2.5rem;
+    border-radius: 0.2rem;
+    color: #f3f3f3;
+    font-family: "montserrat";
+    font-weight: 600;
+}
+.group-avatar img {
+    margin: 1rem 0;
+}
+.obs {
+    font-family: "montserrat";
+    font-size: 0.9rem;
+    color: #a0a0a0;
+    padding: 0.3rem 0;
+}
+.group-avatar {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.group-avatar label {
+    margin: 0;
+}
+.dados button {
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.3rem;
+}
+.dados-endereco .cadastrar-endereco {
+    background: #3b0b66;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    width: 13rem;
+}
+.dados button label {
+    margin: 0;
+    padding: 0.5rem;
+}
+.dados-endereco button label {
+    margin: 0;
+    padding: 0.5rem;
+}
+.endereco-geral {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    align-items: center;
+}
+.botoes button {
+    background: transparent;
+    border: none;
+}
+.botoes button:focus {
+    outline: 0;
+}
+.title-body-endereco {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2rem;
+    font-family: "montserrat";
+    padding: 1rem 0rem 1rem 0;
+}
+.modal-header-confirm {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ebedf2;
+    align-items: center;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+}
+.fa-exclamation {
+    padding: 2rem 2.5rem;
+    font-size: 2rem;
+    color: #9e0e0e;
+    margin: 1rem 0 2rem;
+    border: 1px solid #9e0e0e;
+    border-radius: 100%;
+}
+.modal-body-confirm {
+    padding: 0.5rem;
+}
+/* RESOLUÇÕES */
+@media (max-width: 1280px) {
+    .dash-clientes {
+        width: 95%;
+    }
+    .bloco-input-first {
+        width: 100%;
+    }
+    .group-inputs-first {
+        flex-direction: column;
+    }
+    .avatar-img {
+        margin-left: 0rem;
+        margin-top: 1rem;
+    }
+}
+@media (max-width: 1024px) {
+    .group-inputs {
+        flex-direction: column;
+    }
+    .bloco-input {
+        width: 48%;
+    }
+    .group-inputs-first {
+        padding: 0;
+        flex-direction: row;
+    }
+    .group-inputs {
+        flex-direction: row;
+        padding: 2rem 0 0rem 0;
+    }
+    .topo-dash {
+        display: none;
+    }
+    .dash-clientes {
+        width: 100%;
+        margin-top: 5rem;
+    }
+    .menu-left {
+        position: fixed;
+        height: 5rem;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 1rem;
+        flex-direction: row;
+        top: 0;
+    }
+    .menu-left ul {
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        width: 100vh;
+        height: 100%;
+    }
+    .menu-left ul a {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .menu-left ul li {
+        height: 100%;
+        border-bottom: none !important;
+        border-top: none !important;
+    }
+
+    .conteudo-dash {
+        padding-top: 00px;
+        padding-left: 0px;
+        width: 100%;
+        padding-right: 0px;
+    }
+    .logo-menu {
+        padding: 0;
+    }
+    .dados {
+        padding: 1rem;
+    }
+    .bloco-input-first {
+        width: 40%;
+    }
+}
+@media (max-width: 800px) {
+    .title-body-endereco {
+        font-size: 1.5rem;
+    }
+    .table {
+        overflow: auto;
+    }
+    .menu-left ul {
+        display: none;
+    }
+    .menu-left ul a {
+        height: 5rem;
+        font-family: "montserrat";
+        font-size: 1.2rem;
+        width: 100%;
+        transition: 0.2s linear;
+    }
+    /* .menu-left ul a:hover {
+        background: #e8ceff;
+        transition: 0.2s linear;
+    } */
+    .btn-responsive {
+        display: flex;
+    }
+    .menu-left button span {
+        display: block;
+        height: 4px;
+        background-color: rgba(120, 8, 177, 0.984);
+        margin: 8px 0;
+        position: relative;
+        transition: 0.3s linear;
+    }
+    .menu-left button {
+        background: none;
+        width: 70px;
+        border: none;
+        cursor: pointer;
+        position: relative;
+        outline: none;
+        z-index: 1000;
+        display: block;
+        margin-top: 0.5rem;
+    }
+    .menu-left button:focus {
+        outline: 0;
+    }
+    .lado-direito ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        padding: 5rem 0;
+    }
+    .lado-direito.active {
+        box-shadow: 3px 3px 15px #969696;
+        overflow-y: scroll;
+        right: 0;
+    }
+    .menu-left button.active span:nth-child(1) {
+        transform: rotate(-45deg);
+        top: 4px;
+    }
+    .menu-left button.active span:nth-child(2) {
+        opacity: 0;
+    }
+    .menu-left button.active span:nth-child(3) {
+        transform: rotate(45deg);
+        bottom: 18px;
+    }
+    .lado-direito {
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        background-color: #ffffff;
+        top: 0;
+        right: -100%;
+        max-width: 500px;
+        padding: 0;
+        transition: 0.2s linear;
+        z-index: 1000;
+    }
+    .menu-left ul li {
+        border-bottom: 1px solid #ebebeb !important;
+    }
+}
+@media (max-width: 600px) {
+    .group-inputs-first {
+        flex-direction: column;
+    }
+    .avatar {
+        width: 100%;
+        align-items: center;
+    }
+    .bloco-input-first {
+        width: 100%;
+        padding: 1rem 0 0 0;
+    }
+    .group-inputs {
+        padding: 1rem 0 0rem 0;
+    }
+    .title-body-endereco {
+        padding: 1rem 0 2rem 0;
+    }
+}
+@media (max-width: 500px) {
+    .dados-endereco .cadastrar-endereco {
+        width: 11rem;
+        height: 2.5rem;
+        font-size: 0.9rem;
+    }
+    .dados-endereco button label {
+        padding: 0rem;
+    }
+}
+@media (max-width: 475px) {
+    .title-body-endereco {
+        flex-direction: column;
+        padding: 0.5rem 0 1.5rem 0;
+    }
+    .title-body-endereco span {
+        margin-bottom: 0.5rem;
+    }
+}
